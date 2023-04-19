@@ -1,0 +1,63 @@
+{
+    "1":{
+        "Name":"Azure",
+        "LogoUrl":""
+    },
+    "2":{
+        "Name":"ADF",
+        "LogoUrl":""
+    },
+    "3":{
+        "Name":"Dotnet",
+        "LogoUrl":""
+    },
+    "4":{
+        "Name":"Pyspark",
+        "LogoUrl":""
+    },
+    "5":{
+        "Name":"Angular",
+        "LogoUrl":""
+    },
+    "6":{
+        "Name":"C/C++",
+        "LogoUrl":""
+    },
+    "7":{
+        "Name":"Apache JMeter",
+        "LogoUrl":""
+    },
+    "8":{
+        "Name":"Application Performance Management",
+        "LogoUrl":""
+    },
+    "9":{
+        "Name":"IoT",
+        "LogoUrl":""
+    },
+    "10":{
+        "Name":"Embedded Systems",
+        "LogoUrl":""
+    },
+    "11":{
+        "Name":"DevOps",
+        "LogoUrl":""
+    },
+    "12":{
+        "Name":"Agile Development",
+        "LogoUrl":""
+    },
+    "13":{
+        "Name":"CI/CD",
+        "LogoUrl":""
+    },
+    "14":{
+        "Name":"Logic Apps",
+        "LogoUrl":""
+    },
+    "15":{
+        "Name":"Function Apps",
+        "LogoUrl":""
+    }
+
+}

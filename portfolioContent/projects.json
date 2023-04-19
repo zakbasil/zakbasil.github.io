@@ -1,0 +1,45 @@
+{
+    "1":{
+        "Name":"InterVehicular Communication Platform",
+        "Abstract":"A Plug and Play device that uses Attribute-Based Encryption and Role-Based Access Control to present personalized information about the vehicle environment to the driver, reducing road fatalities",
+        "techStack":[
+            "16 bit ARM Controller: ATMEGA328P",
+            "NRF24L01 Tranceiver",
+            "C/C++",
+            "Attribute Based Encryption and RBAC"
+        ],
+        "Description":"Plug and Play device that aims to reduce road fatalities by presenting information about the vehicle environment to the driver. The device utilizes Attribute-Based Encryption (ABE) and Role-Based Access Control (RBAC) mechanisms to ensure secure and personalized communication through Unicast, Multicast and Broadcast. By encrypting and sharing only relevant information based on the vehicle's attributes and access control policies, the device enhances the driver's situational awareness and helps prevent accidents. The device is designed to be easily installable and compatible with various types of vehicles, making it a cost-effective and scalable solution to improve road safety."
+    },
+    "2":{
+        "Name":"Digi-Green",
+        "Abstract":"A comprehensive platform that leverages AI, Blockchain, and IoT to empower farmers to produce, promote and communicate SAFE TO EAT food, ensuring integrity and safety of the food supply.",
+        "techStack":[
+            "Solidity",
+            "Particle Photon board",
+            "Convolutional Neural Network",
+            "Twilio",
+            "Java - Android",
+            "SQL"
+        ],
+        "Description":" a comprehensive platform that empowers farmers to communicate, grow, and promote SAFE TO EAT food over false organic food. The platform harnesses the power of cutting-edge technologies such as Artificial Intelligence (AI), Blockchain, and Internet of Things (IoT) to enable farmers to manage their production, transit, and supply while ensuring the integrity and safety of the food supply. By leveraging AI for assistance, Blockchain for ensuring transparency and accountability, and IoT for real-time monitoring and management, the platform provides a secure and trusted ecosystem for farmers and consumers alike. This solution aims to revolutionize the food industry by promoting ethical and sustainable farming practices and offering consumers a healthier and safer food option."
+    },
+    "3":{
+        "Name":"Indivara: Jewellery Try-on using AR",
+        "Abstract":"An all-platform program for virtual try-on of jewellery, using advanced computer vision and machine learning techniques, to enhance the e-commerce experience and aid customers in making informed purchasing decisions.",
+        "techStack":[
+            "Javascript",
+            "Convolutional Neural Network"
+        ],
+        "Description":"An all-platform extendable program that enables virtual try-on of jewellery, which can be seamlessly integrated into both web apps and native apps. The program utilizes advanced computer vision and machine learning techniques to accurately simulate the appearance of jewellery on users, taking into account lighting conditions, skin tone, and other factors. By offering a realistic and interactive virtual try-on experience, the program helps customers make informed purchasing decisions and enhances the overall e-commerce experience. The program is designed to be easily customizable and scalable, making it a cost-effective solution for jewellery retailers looking to offer a cutting-edge online shopping experience."
+    },
+    "4":{
+        "Name":"Live feed face mask detection",
+        "Abstract":"A mask usage monitoring system developed using Tensorflow and Keras in Python 3, utilizing machine learning algorithms to analyze real-time video feeds, to ensure compliance with public health guidelines and minimize the spread of COVID-19.",
+        "techStack":[
+            "Tensorflow",
+            "Keras",
+            "Convolutional Neural Network"
+        ],
+        "Description":"A mask usage monitoring system developed using Tensorflow and Keras in Python 3, in response to the COVID-19 pandemic. The system utilizes machine learning algorithms to analyze real-time video feeds and detect whether individuals are wearing masks or not. By providing an accurate and automated way of monitoring mask usage, the system helps ensure compliance with public health guidelines and minimize the spread of the virus. The system is designed to be easy to use and deploy, making it a cost-effective and scalable solution for a variety of settings, including schools, hospitals, and public transportation. The effectiveness of the system is evaluated using real-world video data, demonstrating its accuracy and reliability in detecting mask usage."
+    }
+}

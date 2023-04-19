@@ -1,0 +1,46 @@
+{
+    "1":{
+        "Company":"Infosys Limited",
+        "Duration": "2.5 years",
+        "Projects":{
+            "1":{
+                "Name":"eCommerce Application for B2B Order Transfer",
+                "Objectives":[
+                    "Lead the Performance Improvement Team with 6 memebers.",
+                    "Improved User Satisfaction by 36%, through performance improvements of over 5 times while cutting 25% of cost and scaling user base by 200%.",
+                    "Redesigned the architecture for Availability and Reliability of the application",
+                    "Designed performance tests and dashboards to monitor performance"
+                ],
+                "Skills":[
+                    "Azure Cloud",
+                    "Azure App Services",
+                    "Function Apps",
+                    "CDN",
+                    "Dotnet",
+                    "Angular",
+                    "CI/CD",
+                    "Azure DevOps",
+                    "Application Insights",
+                    "Azure Monitor and Dashboards",
+                    "KQL",
+                    "Apache JMeter"
+                ]
+            },
+            "2":{
+                "Name":"Track and Trace of Supply Chain Entities",
+                "Objectives":[
+                    "Developed Pyspark notebooks for BI Data Lake creation.",
+                    "Integrate SAP and BlueYonder at Middleware level additionally transform data at ADF."
+                ],
+                "Skills":[
+                    "Synapse Workspace - ADF",
+                    "Pyspark",
+                    "Logic Apps",
+                    "ADLS Gen 2",
+                    "Service Bus/Topic",
+                    "CI/CD"
+                ]
+            }
+        }
+    }
+}
