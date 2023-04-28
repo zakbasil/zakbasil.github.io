@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+  <ul>
+    <li><a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
+    <li><a routerLink="/experience" routerLinkActive="active" ariaCurrentWhenActive="page">Experience</a></li>
+    <li><a routerLink="/projects" routerLinkActive="active" ariaCurrentWhenActive="page">Projects</a></li>
+    <li><a routerLink="/blogs" routerLinkActive="active" ariaCurrentWhenActive="page">Blogs</a></li>
+    <li><a routerLink="/aboutme" routerLinkActive="active" ariaCurrentWhenActive="page">About Me</a></li>
+
+    <li style="float: right;"><h1>Basil Skaria</h1></li>
+  </ul>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>
