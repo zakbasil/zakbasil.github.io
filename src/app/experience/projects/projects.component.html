@@ -1,0 +1,17 @@
+<p>projects works!</p>
+
+<div *ngFor="let project of projects">
+    <div class="cards">
+        <div class="report4-area homepagesegment">
+
+            <p>{{project.Name}}</p>
+            <p>{{project.techStack}}</p>
+            <button (click)="toggleDescState()">readmore</button>
+        </div>
+
+        <div class="report5-area homepagesegment">
+            <p>{{project.Abstract}}</p>
+        </div>
+        <p [hidden]="!descState">{{project.Description}}</p>
+    </div>
+</div>

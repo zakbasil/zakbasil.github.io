@@ -1,0 +1,142 @@
+@media all and (min-width: 360px) {
+    .wrapper {
+        display: grid;
+        grid-row-gap: 2em;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "report1"
+            "report2"
+            "report3";
+    }
+    .cards {
+        display: grid;
+        grid-row-gap: 2em;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "report1"
+            "report4"
+            "report5"
+            "report5"
+            "report3";
+    }
+}
+
+@media all and (min-width: 576px) {
+    .wrapper {
+        display: grid;
+        grid-row-gap: 2em;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 1fr;
+        /* grid-template-columns: 1fr 1fr; */
+        grid-template-areas:
+            "report1 report2 report2 report3";
+    }
+    .cards {
+        display: grid;
+        grid-row-gap: 1px;
+        grid-column-gap: .2em;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 1fr;
+        /* grid-template-columns: 1fr 1fr; */
+        grid-template-areas:
+            "report1 report4 report5 report6";
+        padding: .7rem;
+    }
+}
+
+.report1-area {
+    grid-area: report1;
+}
+
+.report2-area {
+    grid-area: report2;
+}
+
+.report3-area {
+    grid-area: report3;
+}
+
+.report4-area {
+    grid-area: report4;
+}
+
+.report5-area {
+    grid-area: report5;
+}
+
+.report6-area {
+    grid-area: report6;
+}
+
+
+.homepagesegment{
+    border: 2px;
+    background-color: #efeae3;
+    border-radius: 4px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.namesegment{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.summarysegment{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.miscsegment{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.company{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: Montserrat-Regular,sans-serif;
+    font-size: large;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#000000;
+    text-align: center bottom;
+}
+
+.duration{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: Montserrat-Regular,sans-serif;
+    font-size: large;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#000000;
+    text-align: center bottom;
+}
+
+.projects{
+    font-family:Montserrat-Regular,sans-serif;
+    text-rendering: optimizeLegibility;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#000000;
+}
+
+.summary{
+    font-family: Montserrat-Regular,sans-serif;
+    text-rendering: optimizeLegibility;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#000000;
+}
+
+.misc{
+    font-family:Montserrat-Regular,sans-serif;
+    text-rendering: optimizeLegibility;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#000000;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "Name": "Azure",
+        "LogoUrl": "matfAzureColored"
+    },
+    {
+        "Name": "ADF",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "Dotnet",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "Pyspark",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "Angular",
+        "LogoUrl": "simpleAngular" 
+    },
+    {
+        "Name": "C/C++",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "Apache JMeter",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "Application Performance Management",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "IoT",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "Embedded Systems",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "DevOps",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "Agile Development",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "CI/CD",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "Logic Apps",
+        "LogoUrl": ""
+    },
+    {
+        "Name": "Function Apps",
+        "LogoUrl": ""
+    }
+]

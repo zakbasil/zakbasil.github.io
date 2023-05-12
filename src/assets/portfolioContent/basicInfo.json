@@ -1,0 +1,40 @@
+{
+    "name": "BASIL SKARIA",
+    "email": "basilskaria41@gmail.com",
+    "location": "Bangaluru, Karnataka",
+    "languages": [
+        "Malayalam",
+        "Hindi",
+        "English",
+        "Kanada"
+    ],
+    "tagline": "Career Consultant | Specialist Programer @Infosys | ADF | PySpark | ECommerce Applications | Application Performance Management | Azure | Dotnet",
+    "summary": "I am an inquisitive and people-oriented engineer with a passion for managing and solving complex projects. With a strong analytical skillset and a focus on human-centric solutions, I specialize in leveraging cutting-edge technologies to optimize and build solutions that make a difference. As a Developer Lead for a performance improvement team, I swiftly collaborated and communicated insights to diverse teams, achieving this role within just 8 months. With a track record of success in managing and delivering high-quality projects, I am committed to driving innovation and making a positive impact. Let's connect and explore how we can work together to create impactful solutions.",
+    "contactMe": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/zakbasil",
+            "icon": "bootstrapGithub"
+        },
+        {
+            "name": "Instagram",
+            "url": "https://instagram.com/zakbasil",
+            "icon": "bootstrapInstagram"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/in/basilskaria",
+            "icon": "bootstrapLinkedin"
+        },
+        {
+            "name": "Medium",
+            "url": "https://medium.com/@zakbasil",
+            "icon": "bootstrapMedium"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://youtube.com/@zakbasil",
+            "icon": "bootstrapYoutube"
+        }
+    ]
+}

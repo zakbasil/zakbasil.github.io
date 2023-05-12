@@ -1,0 +1,18 @@
+<div class="wrapper">
+    <div class="report1-area">
+        <ul>
+            <li *ngFor="let nav of navList">
+                <a routerLink="{{nav.url}}" routerLinkActive="active" ariaCurrentWhenActive="page">{{nav.name}}</a>
+
+            </li>
+        </ul>
+    </div>
+    <div class="report2-area profile">
+        <ul>
+            <li *ngFor="let site of contactList" class="profile">
+                <a href="{{site.url}}" target="_blank">
+                    <ng-icon class="icon" name="{{site.icon}}"></ng-icon></a>
+            </li>
+        </ul>
+    </div>
+</div>

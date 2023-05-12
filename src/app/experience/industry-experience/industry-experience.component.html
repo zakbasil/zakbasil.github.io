@@ -1,0 +1,17 @@
+<p>industry-experience works!</p>
+<div class="wrapper">
+    <div class="report2-area homepagesegment namesegment">
+
+    <p>{{company}}</p>
+    <p>{{duration}}</p>
+
+    <div *ngFor="let project of projects" >
+        <p>{{project.Name}}</p>
+        <p>{{project.Objectives}}</p>
+        <p>{{project.Skills}}</p>
+        
+    </div>
+</div>
+</div>
+<app-skills></app-skills>
+<app-projects></app-projects>
