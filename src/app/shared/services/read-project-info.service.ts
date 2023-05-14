@@ -25,6 +25,7 @@ export class ReadProjectInfoService {
    * getFeaturedProjects
    */
   public getFeaturedProjects() {
+    this.featuredProjects = []
     for (let index = 0; index < this.projects.length; index++) {
       if (this.projects[index]["featured"] == true) {
         this.featuredProjects.push(this.projects[index])

@@ -1,18 +1,29 @@
-<div class="wrapper">
-    <div class="report1-area">
-        <ul>
-            <li *ngFor="let nav of navList">
-                <a routerLink="{{nav.url}}" routerLinkActive="active" ariaCurrentWhenActive="page">{{nav.name}}</a>
-
-            </li>
-        </ul>
-    </div>
-    <div class="report2-area profile">
-        <ul>
-            <li *ngFor="let site of contactList" class="profile">
-                <a href="{{site.url}}" target="_blank">
-                    <ng-icon class="icon" name="{{site.icon}}"></ng-icon></a>
-            </li>
-        </ul>
-    </div>
-</div>
+<mat-toolbar>
+    <nav mat-tab-nav-bar [tabPanel]="tabPanel">
+        <a mat-tab-link *ngFor="let link of navlinks" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive"
+            [active]="rla.isActive">
+            {{link.label}}
+        </a>
+        
+    </nav>
+    <span class="example-spacer"></span>
+    <nav mat-tab-nav-bar [tabPanel]="tabPanel" *ngIf="!isMobile()">
+    
+    <a mat-tab-link *ngFor="let site of contactList" href="{{site.url}}" target="_blank">
+        <mat-icon>
+            <ng-icon class="icon" name="{{site.icon}}"></ng-icon>
+        </mat-icon>
+    </a>
+</nav>
+</mat-toolbar>
+<mat-toolbar *ngIf="isMobile()">
+    <nav mat-tab-nav-bar [tabPanel]="tabPanel">
+    
+        <a mat-tab-link *ngFor="let site of contactList" href="{{site.url}}" target="_blank">
+            <mat-icon>
+                <ng-icon class="icon" name="{{site.icon}}"></ng-icon>
+            </mat-icon>
+        </a>
+    </nav>
+</mat-toolbar>
+<mat-tab-nav-panel #tabPanel></mat-tab-nav-panel>

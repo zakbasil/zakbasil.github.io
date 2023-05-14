@@ -1,0 +1,28 @@
+.Cards{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.name{
+    font-stretch: expanded;
+    overflow:visible;
+    display: contents;
+    font-size: 350%;
+    align-self: center;
+    color: #3bba9c;
+}
+
+.summary{
+    font-stretch: expanded;
+    overflow:visible;
+    font-size: 100%;
+    color: #3bba9c;
+    text-align: justify;
+    padding: 10px;
+}
+

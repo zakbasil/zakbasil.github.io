@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 html {
-    background-color: #eaeee3;
+    background-color: #171e27;
 }
 
 @font-face {
@@ -14,3 +14,10 @@ html {
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-grid-tile{
+    border-radius: 3px;
+    box-shadow: 3px 3px black;
+}

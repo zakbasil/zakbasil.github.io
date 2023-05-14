@@ -1,12 +1,34 @@
-<div class="wrapper">
-    <div class="report2-area homepagesegment namesegment">
-        <p class="firstName">{{firstName}}</p>
-        <p class="lastName">{{lastName}}</p>
-        <p class="summary">{{summary}}</p>
-        <p class="misc">{{location}}</p>
-        <p class="misc">{{languages}}</p>
+<div class="wrapperTiles homepageLandingSite">
+    <div class="report2-area">
+        <app-tiles [cols]="5" [rowHeight]="'100px'" [tiles]="HomepageTiles"></app-tiles>
     </div>
 </div>
 
-<app-featured-blogs></app-featured-blogs>
-<app-featured-projects></app-featured-projects>
+<mat-divider style="background-color: aqua;"></mat-divider>
+
+<div class="wrapperProjects homepagefeaturesTitle">
+    <div class="report1-area featuresTitle">
+        <p class="featuredTitle">Featured</p>
+        <p class="featuredTitle">Projects</p>
+    </div>
+    <div class="report2-area">
+
+        <app-featured-projects></app-featured-projects>
+    </div>
+</div>
+
+<mat-divider style="background-color: aqua;"></mat-divider>
+
+<div class="wrapperSkills homepagefeaturesTitle">
+    <div class="report1-area featuresTitle">
+        <p class="featuredTitle">Featured</p>
+        <p class="featuredTitle">Skills</p>
+    </div>
+    <div class="report2-area">
+
+        <app-featured-skills></app-featured-skills>
+    </div>
+</div>
+
+
+<!-- <app-featured-blogs></app-featured-blogs> -->
