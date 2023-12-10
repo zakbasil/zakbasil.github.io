@@ -2,7 +2,8 @@ import { Component, Input } from '@angular/core';
 
 
 export interface Tiles {
-Text:string,
+Text?:string,
+Image?:string,
 colspan:number,
 rowspan:number,
 color:string,

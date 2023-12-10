@@ -6,8 +6,8 @@
         [style.background]="tile.color"
         [style.font-family]="tile.font"
         >
-        
-        <p mat-grid-tile-content [ngClass]="tile.class">{{tile.Text}}</p>
+        <p mat-grid-tile-content [ngClass]="tile.class" *ngIf="tile.Text">{{tile.Text}}</p>
+        <img mat-grid-tile-content [ngClass]="tile.class" *ngIf="tile.Image" [src]="tile.Image">
       
     </mat-grid-tile>
   </mat-grid-list>
